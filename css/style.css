@@ -4,12 +4,11 @@
     box-sizing: border-box;
 }
 
-header{
+header {
     background-color: rgb(229, 131, 230);;
     height: 100px;
     margin-bottom: 20px;
     margin-top: 20px;
-
 }
 
 .container {
@@ -17,3 +16,8 @@ header{
     margin: auto;
 }
 
+.box-center {
+    background-color: rgb(225, 214, 122);;
+    height: 500px;
+    margin-bottom: 20px;
+}
