@@ -21,3 +21,36 @@ header {
     height: 500px;
     margin-bottom: 20px;
 }
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.up {
+    background-color: rgb(171, 207, 231);;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.col-left, .col-right {
+    background-color: rgb(171, 207, 231);
+    float: left;
+    width: 20%;
+    min-height: 600px;
+}
+
+.col-middle {
+    background-color: rgb(171, 207, 231);;
+    float: left;
+    width: calc(60% - 40px);
+    margin: auto 20px;
+    min-height: 600px;
+}
+
+.container2{
+    background-color: rgb(4, 132, 255);
+    padding-bottom: 20px;
+
+}
